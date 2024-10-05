@@ -3,7 +3,7 @@
 
 int main() {		
 
-	printf("Triangolo stampato: \n\n");
+	printf("Genero triangolo: \n\n");
 	printf("*\n");
 	printf("**\n");
 	printf("***\n");
