@@ -10,6 +10,7 @@ int main() {
 	printf("****\n");	
 	printf("*****\n");
 	printf("******\n");
-
+	printf("\nFine triangolo.\n");
+	
 	return 0;
 }
