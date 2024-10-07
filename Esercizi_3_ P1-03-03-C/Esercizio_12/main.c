@@ -2,7 +2,7 @@
 
 
 int main() {
-	const float a = 8.32453f; //sostituisco u con f, u funziona solo con gli unsigned int
+	const float a = 8.32453f; //sostituisco suffisso u con f, u funziona solo con gli unsigned int
 	int c;
 	float b; //b deve essere un float, non un int
 	
