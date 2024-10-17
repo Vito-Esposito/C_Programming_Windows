@@ -1,18 +1,14 @@
 #include <stdio.h>
+#include "libreria.h"
 
 int main() {
-	int n, i, j;
+	int n;
 	
-	printf("Inserisci n per base e m per altezza del triangolo: \n");
+	printf("Inserisci n per base e per altezza del triangolo: \n");
 	scanf("%d", &n);
 	printf("\n");
 	
-	for(i=0; i<n; i++){
-		for(j=0; j<=i; j++)
-			printf("*");
-		
-		printf("\n");
-	}
+	stampa_triangolo(n);
 	
 	return 0;
 }
