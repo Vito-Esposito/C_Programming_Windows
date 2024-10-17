@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit2]
-FileName=..\libreria.c
+FileName=..\Triangolo_rettangolo_n_m_ciclo\libreria.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=..\libreria.h
+FileName=..\Triangolo_rettangolo_n_m_ciclo\libreria.h
 CompileCpp=0
 Folder=
 Compile=1
