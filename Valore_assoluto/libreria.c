@@ -113,10 +113,6 @@ float valore_assolutoF(float numero){
 		return -(numero);
 }
 
-float errore_relativoF(float x, float y){
-	return valore_assolutoF(x-y)/valore_assolutoF(x);
-}
-
 //PROCEDURE
 void circonf_rif(float r, float*c){
 	const float pi_greco= 3.1415926F;

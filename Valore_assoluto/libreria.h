@@ -10,7 +10,6 @@ float area_cerchio(float);
 float circonf(float);
 int media_10_voti();
 float valore_assolutoF(float);
-float errore_relativoF(float, float);
 
 //PROCEDURE
 void circonf_rif(float, float*);

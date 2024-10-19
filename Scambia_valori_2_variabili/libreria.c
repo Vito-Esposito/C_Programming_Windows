@@ -105,18 +105,6 @@ float area_min(float r_min){
 	return (c*c)/(4*pi_greco);	
 }
 
-float valore_assolutoF(float numero){
-	
-	if(numero>=0)
-		return numero;
-	else
-		return -(numero);
-}
-
-float errore_relativoF(float x, float y){
-	return valore_assolutoF(x-y)/valore_assolutoF(x);
-}
-
 //PROCEDURE
 void circonf_rif(float r, float*c){
 	const float pi_greco= 3.1415926F;
