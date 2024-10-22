@@ -120,7 +120,7 @@ float errore_relativoF(float x, float y){
 int somma_primi_n_naturali(int n){
 	int i, somma=0;
 	
-	for(i=1; i<=n; i++)
+	for(i=0; i<=n; i++)
 		somma+=i;
 		
 	return somma;
