@@ -146,18 +146,6 @@ float sommatoria_n2(int n){
 	return somma;
 }
 
-int fattoriale(int n){
-	int i, fattoriale=1;
-	
-	if(n!=0)
-		for(i=1; i<=n; i++)
-			fattoriale= i*fattoriale;
-	else
-		fattoriale=1;
-		
-	return fattoriale;
-}
-
 //PROCEDURE
 void circonf_rif(float r, float*c){
 	const float pi_greco= 3.1415926F;

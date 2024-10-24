@@ -13,8 +13,6 @@ float valore_assolutoF(float);
 float errore_relativoF(float, float);
 int somma_primi_n_naturli(int);
 float sommatoria_armonica(int);
-float sommatoria_n2(int);
-int fattoriale(int);
 
 //PROCEDURE
 void circonf_rif(float, float*);
