@@ -275,17 +275,6 @@ float media_array(float somma, int n){
 	return somma/(float)n;
 }
 
-float varianza_array(float array[], float media, int n){
-	int i;
-	float somma= 0;
-	
-	for(i=0; i<n; i++){
-		somma= somma + (array[i]-media)*(array[i]-media);
-	}
-	
-	return somma/(float)(n-1);
-}
-
 //PROCEDURE
 void circonf_rif(float r, float*c){
 	const float pi_greco= 3.1415926F;

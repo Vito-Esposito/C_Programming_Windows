@@ -261,31 +261,6 @@ int mcd(int a, int b){
 	return b;
 }
 
-float somma_array(float array[], int n){
-	float somma= 0;
-	int i;
-	
-	for(i=0; i<n; i++)
-		somma= somma + array[i];
-		
-	return somma;	
-}
-
-float media_array(float somma, int n){
-	return somma/(float)n;
-}
-
-float varianza_array(float array[], float media, int n){
-	int i;
-	float somma= 0;
-	
-	for(i=0; i<n; i++){
-		somma= somma + (array[i]-media)*(array[i]-media);
-	}
-	
-	return somma/(float)(n-1);
-}
-
 //PROCEDURE
 void circonf_rif(float r, float*c){
 	const float pi_greco= 3.1415926F;
@@ -353,25 +328,5 @@ float trova_secondo_massimo_ninput(int n, float*max, float*s_max){
 		else if(numero_letto > *s_max && numero_letto < *max)
 			*s_max= numero_letto;
 	}
-}
-
-void riempi_array(float array[], int n){
-	int i;
-	
-	printf("\n");
-	
-	for(i=0; i<n; i++){
-		printf("Array[%d]: ", i);
-		scanf("%f", &array[i]);
-	}
-}
-
-void leggi_array(float array[], int n){
-	int i;
-	
-	printf("\n");
-	
-	for(i=0; i<n; i++)
-		printf("Array[%d]: %.2f\n", i, array[i]);
 }
 

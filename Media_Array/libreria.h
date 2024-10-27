@@ -24,7 +24,6 @@ float sommatoria_geometrica(int, float);
 int mcd(int, int);
 float somma_array(float[], int n);
 float media_array(float, int);
-float varianza_array(float[], float, int);
 
 //PROCEDURE
 void circonf_rif(float, float*);
