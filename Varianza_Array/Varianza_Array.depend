@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1731095137 source:c:\users\vitoe\documents\github\c_programming_windows\varianza_array\libreria.c
+
+1731095137 source:c:\users\vitoe\documents\github\c_programming_windows\varianza_array\main.c
+	<stdio.h>
+	"libreria.h"
+
+1731095137 c:\users\vitoe\documents\github\c_programming_windows\varianza_array\libreria.h
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1731228479 source:c:\users\vitoe\documents\github\c_programming_windows\sfida_dado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

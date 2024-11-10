@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1731226879 source:c:\users\vitoe\documents\github\c_programming_windows\dado_somma\main.c
+	<stdio.h>
+	<stdlib.h>
+
