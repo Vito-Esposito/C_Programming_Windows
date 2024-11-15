@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "lib.c"
 
 /* calcolo del massimo e minimo (e dei loro indici) dei valori di un array 1D, usa funzione/procedure */
 
