@@ -1,0 +1,47 @@
+/*          Dichiarazione array 2D
+            int matrice[2][3]= { {21, 16, 14}
+                                 {12, 22, 30} };    
+*/
+// --------------------------------------------------------------------
+/*          Indirizzo base di un array 2D come argomento
+            &matrice[0][0]    
+            il nome di un array 2D non è un puntatore costante all'indirizzo 
+            base dell'array 2D, come array <-> &array[0]
+            un array 2D può essere considerato un array di puntatori ad array
+
+		quindi come argomento nella funzione chiamata, devo scrivere &matrice[0][0] e non matrice, se uso i puntatori
+
+*/
+// --------------------------------------------------------------------
+/*          Puntatori e Array 2D
+            int matrice[2][3];
+            matrice[1][2] <-> *(&matrice[0][0]+3*1+2)
+
+            quindi con a[n_righe][n_colonne], avremo
+            a[i][j] <-> *(a[0][0]+n_colonne*i+j)
+
+            MA userò -> *(a+n_colonne*i+j) mentre scorro o farò operazioni sull'array 2D
+            a da C viene interpretato come un puntatore a a[0][0]
+*/
+//---------------------------------------------------------------------
+/*           Notazione standard       Notazione a puntatore
+            M[0][0]                  *(&M[0][0])
+            M[i][j]                  *(&M[0][0]+n_colonne*i+j)
+            M[i][j]                  *(M+n_colonne*i+j)
+            M[i][j]                  *(&M[i]+j)
+            M[i][j]                  (*(M+i))[j]
+*/
+//---------------------------------------------------------------------
+/* Notazione a puntatori - Funzioni
+            intestazione -> void visualizza(int*, int, int); <-> dichiarazione -> visualizza(int *matrice, int n, int m){ ... }
+            con funzione chiamata visualizza(&matrice[0][0], n, m);
+
+            con *(matrice + n * i + j);  // Accesso all'elemento [i][j]
+
+
+    Notazione standard - Funzioni
+            intestazione -> void visualizza(int[][100], int, int); <-> dichiarazione -> visualizza(int matrice[][100], int n, int m){ ... }
+            con funzione chiamata visualizza(matrice, n, m);
+
+            con matrice[i][j]; // Accesso all'elemento [i][j]
+*/
