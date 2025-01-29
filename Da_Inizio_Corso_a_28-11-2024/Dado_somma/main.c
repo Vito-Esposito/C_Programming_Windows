@@ -10,7 +10,7 @@ int main()
     srand(time(0));
 
     for(i=1; i<=10; i++){
-        faccia_dado= 1+rand()%(6-1+1);
+        faccia_dado= 1+rand()%(6);
         printf("%d lancio: %d.\n", i, faccia_dado);
 
         somma += faccia_dado;
